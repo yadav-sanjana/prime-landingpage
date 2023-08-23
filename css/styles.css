@@ -1,0 +1,106 @@
+.games {
+    display: block;
+}
+
+
+.card-body {
+    background-image: url('/images/pexels-photo-952670.jpeg');
+    background-size: cover;
+}
+
+
+.card {
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 2px 2px silver;
+}
+
+.features {
+    text-align: center;
+    color: aliceblue;
+    padding:  2px 5px 2px 2px
+}
+
+.online-game a {
+    text-align: center;
+    margin: 25px 30px 25px 30px;
+}
+
+* {
+    background-color: black;
+    font-family: sans-serif, Arial, Helvetica, ;
+}
+
+img {
+    border-radius: 0px 24px 0px 0px
+}
+
+.betx-subheader img {
+    border-radius: 0;
+}
+
+.carasol {
+    padding: 10px 10px 10px 10px;
+    background: rgb(29, 28, 28);
+}
+
+.betx-nav-div {
+    background: black;
+}
+
+.betx-nav-div a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: #F3AB10;
+}
+
+.betx-banner {
+    padding: 20px 20px 20px 20px;
+}
+
+.betx-banner a {
+    color: white;
+    text-decoration: none;
+}
+
+.online-game a {
+    color: white;
+    text-decoration: none;
+}
+
+.online-game {
+    display: flex;
+}
+
+.container-fluid {
+    padding: 10px 10px 10px 10px;
+}
+
+.plans {
+    padding: 40px 15px 37px 15px;
+    margin: 0px 24px 0px 0px;
+    border-radius: 0px 24px 0px 0px;
+}
+
+.element {
+    padding: 40px 15px 37px 15px;
+}
+
+.card img {
+    padding: 20px 20px 20px 20px;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    background: none;
+}
