@@ -133,8 +133,6 @@ footer {
 
 .social-sticky {
     position: fixed;
-    bottom: 350px;
-    text-align: left;
     z-index: 10;
     width:"40px" ;
     background: none;
