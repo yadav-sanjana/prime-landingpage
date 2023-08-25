@@ -34,7 +34,7 @@
 }
 
 * {
-    background-color: black;
+    background-color: rgb(20, 1, 20);
     font-family: sans-serif, Arial, Helvetica, ;
 }
 
@@ -58,6 +58,16 @@ img {
 .betx-nav-div a {
     color: aliceblue;
     text-decoration: none;
+}
+
+.betx-banner a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.online-game a:link {
+    text-decoration: none;
+    color: white;
 }
 
 .beta-nav a {
@@ -134,28 +144,28 @@ footer {
 .social-sticky {
     position: fixed;
     z-index: 10;
-    width:"40px" ;
+    width: "40px";
     background: none;
 }
 
 .whatsapp-btn {
-   text-align: center;
+    text-align: center;
 }
 
-.features-point{
-    padding:40px 15px 37px 15px;
+.features-point {
+    padding: 40px 15px 37px 15px;
 }
 
 
 .shot-main {
     display: grid;
-    grid-template-columns:12% 12% 12% 12% 12% 12% 12% 12% ;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
     padding: 20px;
 }
 
-@media (max-width:764px){
+@media (max-width:764px) {
     .shot-main {
-        display:grid;
-        grid-template-columns:25% 25% 25% 25%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
     }
 }
