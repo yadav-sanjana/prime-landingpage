@@ -34,7 +34,7 @@
 }
 
 * {
-    background-color: black;
+    background-color: rgb(53, 3, 3);
     font-family: sans-serif, Arial, Helvetica, ;
 }
 
@@ -48,7 +48,7 @@ img {
 
 .carasol {
     padding: 10px 10px 10px 10px;
-    background: rgb(29, 28, 28);
+    background: rgb(19, 1, 8);
 }
 
 .betx-nav-div {
