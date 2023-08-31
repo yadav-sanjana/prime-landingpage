@@ -1,7 +1,19 @@
 .games {
     display: block;
 }
+.betx-banner a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+.online-game a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
+.element a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .card-body {
     background-image: url('/images/pexels-photo-952670.jpeg');
