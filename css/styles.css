@@ -48,6 +48,7 @@
 * {
     background-color: black;
     font-family: sans-serif, Arial, Helvetica, ;
+    width: 100%;
 }
 #confetti-container {
     position: absolute;
