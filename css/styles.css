@@ -1,6 +1,9 @@
 .games {
     display: block;
 }
+* {
+    background-color: brown;
+}
 .betx-banner a:hover {
     text-decoration: none;
     color: aliceblue;
