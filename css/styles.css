@@ -1,7 +1,19 @@
 .games {
     display: block;
 }
+.betx-banner a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+.online-game a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
+.element a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .card-body {
     background-image: url('/images/pexels-photo-952670.jpeg');
@@ -34,7 +46,7 @@
 }
 
 * {
-    background-color: rgb(6, 1, 36);
+    background-color: black;
     font-family: sans-serif, Arial, Helvetica, ;
 }
 
@@ -48,7 +60,7 @@ img {
 
 .carasol {
     padding: 10px 10px 10px 10px;
-    background: rgb(7, 0, 0);
+    background: rgb(29, 28, 28);
 }
 
 .betx-nav-div {
@@ -72,6 +84,10 @@ img {
 
 .beta-nav a {
     text-decoration: none !important;
+}
+.disclaimer{
+    text-decoration: none;
+    color: black;
 }
 
 .element a {
@@ -167,5 +183,17 @@ footer {
     .shot-main {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+@media (max-width:768px) {
+    main {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    figure {
+        display: none;
     }
 }
