@@ -114,6 +114,10 @@ img {
 .beta-nav a {
     text-decoration: none !important;
 }
+.disclaimer{
+    text-decoration: none;
+    color: black;
+}
 
 .element a {
     color: white;
