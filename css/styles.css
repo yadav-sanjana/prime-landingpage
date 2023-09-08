@@ -4,6 +4,11 @@
     background-size: 100%;
 } */
 
+.social-sticky a {
+    background-color: aliceblue;
+    bottom: 400px;
+}
+
 body {
     background-color: white;
     background-image: url(/images/bg-img.jpg);
@@ -23,4 +28,17 @@ body {
     background: rgba(0,0,0,0.6);
     text-align: center;
     margin: 30px auto 0;
+}
+
+
+@media (max-width:768px) {
+    main {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    figure {
+        display: none;
+    }
 }
