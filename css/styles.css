@@ -1,0 +1,26 @@
+/* body {
+    background-image: url(/images//bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+body {
+    background-color: white;
+    background-image: url(/images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.discountFtd {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    color: white;
+    max-width: 700px;
+    width: 90%;
+    padding: 25px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    margin: 30px auto 0;
+}
