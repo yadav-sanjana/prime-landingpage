@@ -1,13 +1,12 @@
 .games {
     display: block;
 }
-* {
-    background-color: brown;
-}
+
 .betx-banner a:hover {
     text-decoration: none;
     color: aliceblue;
 }
+
 .online-game a:hover {
     text-decoration: none;
     color: aliceblue;
@@ -18,12 +17,14 @@
     bottom: 400px;
 }
 
-body {
+body,
+figure {
     background-color: white;
     background-image: url(/images/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .discountFtd {
     display: flex;
     justify-content: center;
@@ -40,53 +41,51 @@ body {
     margin: 25px 30px 25px 30px;
 }
 
-* {
-    background-color: black;
-    font-family: sans-serif, Arial, Helvetica, ;
-}
-
-img {
-    border-radius: 0px 24px 0px 0px
-}
-
-.betx-subheader img {
-    border-radius: 0;
-}
-
-.carasol {
-    padding: 10px 10px 10px 10px;
-    background: rgb(29, 28, 28);
-}
-
-.betx-nav-div {
-    background: black;
-}
-
-.betx-nav-div a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.betx-banner a:link {
-    text-decoration: none;
+.block {
     color: white;
     max-width: 700px;
     width: 90%;
-    padding: 25px;
+    padding: 5%;
     background: rgba(0,0,0,0.6);
     text-align: center;
     margin: 30px auto 0;
 }
 
+.another a:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'poppinsregular';
+    position: relative;
+    overflow: auto;
+}
+
 
 @media (max-width:768px) {
-    main {
-        display: none;
+    body {
+        /* width: 100%; */
+        background-image: url(/images/4m.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .block {
+        width: 100%;
     }
 }
 
 @media (min-width:768px) {
-    figure {
-        display: none;
+    body {
+        background-image: url(/images/3rdpagebnrbg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
     }
+
 }
