@@ -1,8 +1,17 @@
-/* body {
-    background-image: url(/images//bg-img.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
+.games {
+    display: block;
+}
+* {
+    background-color: brown;
+}
+.betx-banner a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+.online-game a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .social-sticky a {
     background-color: aliceblue;
@@ -20,7 +29,46 @@ body {
     justify-content: center;
 }
 
-.container {
+.features {
+    text-align: center;
+    color: aliceblue;
+    padding: 2px 5px 2px 2px
+}
+
+.online-game a {
+    text-align: center;
+    margin: 25px 30px 25px 30px;
+}
+
+* {
+    background-color: black;
+    font-family: sans-serif, Arial, Helvetica, ;
+}
+
+img {
+    border-radius: 0px 24px 0px 0px
+}
+
+.betx-subheader img {
+    border-radius: 0;
+}
+
+.carasol {
+    padding: 10px 10px 10px 10px;
+    background: rgb(29, 28, 28);
+}
+
+.betx-nav-div {
+    background: black;
+}
+
+.betx-nav-div a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.betx-banner a:link {
+    text-decoration: none;
     color: white;
     max-width: 700px;
     width: 90%;
