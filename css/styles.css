@@ -34,8 +34,27 @@
 }
 
 * {
-    background-color: rgb(34, 54, 4);
+    /* background-color: #430132; */
     font-family: sans-serif, Arial, Helvetica, ;
+}
+
+.content {
+    opacity: 0.8;
+    border-radius: 6px  ;
+    height: 50vh;
+    width: 50%;
+    z-index: 900;
+    background-color: black;
+    display: inline-block;
+    float: right;
+    margin-top: 290px;
+    margin-right: 10%  ;
+}
+body {
+    background-image: url(/images/banner-landing-page\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 img {
@@ -168,4 +187,28 @@ footer {
 .betx-banner a:link {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width:768px) {
+    body {
+        /* width: 100%; */
+        background-image: url(/images/mobile\ \(1\).jpg);
+        background-repeat: no-repeat;
+    }
+
+    .content {
+        display: none;
+        height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    body {
+        background-image: url(/images/banner-landing-page\ \(2\).jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        height: 100%;
+    }
+
 }
