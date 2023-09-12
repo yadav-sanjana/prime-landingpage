@@ -2,24 +2,32 @@
     display: block;
 }
 
-
-.card-body {
-    background-image: url('/images/pexels-photo-952670.jpeg');
-    background-size: cover;
+.betx-banner a:hover {
+    text-decoration: none;
+    color: aliceblue;
 }
 
+.online-game a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
 
-.card {
-    border-radius: 8px 8px 8px 8px;
+.social-sticky a {
+    background-color: aliceblue;
+    bottom: 400px;
+}
+
+body,
+figure {
+    background-color: white;
+    background-image: url(/images/mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.discountFtd {
     display: flex;
-    position: relative;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: flex;
-    box-sizing: border-box;
-    box-shadow: 2px 5px 2px 2px silver;
-    padding: 10px 10px 10px 10px;
-    background: black !important;
+    justify-content: center;
 }
 
 .features {
@@ -33,139 +41,59 @@
     margin: 25px 30px 25px 30px;
 }
 
-* {
-    background-color: rgb(82, 26, 4);
-    font-family: sans-serif, Arial, Helvetica, ;
+.block {
+    color: white;
+    max-width: 700px;
+    width: 90%;
+    padding: 5%;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    margin: 30px auto 0;
 }
 
-img {
-    border-radius: 0px 24px 0px 0px
-}
-
-.betx-subheader img {
-    border-radius: 0;
-}
-
-.carasol {
-    padding: 10px 10px 10px 10px;
-    background: rgb(29, 28, 28);
-}
-
-.betx-nav-div {
-    background: black;
-}
-
-.betx-nav-div a {
+.another a:link{
+    text-decoration: none;
     color: aliceblue;
-    text-decoration: none;
 }
 
-.beta-nav a {
-    text-decoration: none !important;
-}
-
-.element a {
-    color: white;
-}
-
-h2 {
-    text-align: center;
-    color: #F3AB10;
-}
-
-.betx-banner {
-    padding: 20px 20px 20px 20px;
-}
-
-.betx-banner a {
-    color: white;
-    text-decoration: none;
-}
-
-.online-game a {
-    color: white;
-    text-decoration: none;
-}
-
-.online-game {
-    display: flex;
-}
-
-.container-fluid {
-    padding: 10px 10px 10px 10px;
-}
-
-.plans {
-    padding: 40px 15px 37px 15px;
-    margin: 0px 24px 0px 0px;
-    border-radius: 0px 24px 0px 0px;
-}
-
-.card img {
-    padding: 20px 20px 20px 20px;
-}
-
-.card-text {
-    color: white;
-    text-align: center;
-    background: none;
-}
-
-.betx-subheader {
-    background-color: azure !important;
-}
-
-.nav-item a {
-    text-decoration: none !important;
-}
-
-footer {
-    position: fixed;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    bottom: 0px;
+.wrapper {
     width: 100%;
-}
-
-.social {
-    text-align: center;
-}
-
-.social-sticky {
-    position: fixed;
-    z-index: 10;
-    width: "40px";
-    background: none;
-}
-
-.whatsapp-btn {
-    text-align: center;
-}
-
-.features-point {
-    padding: 40px 15px 37px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'poppinsregular';
+    position: relative;
+    overflow: auto;
 }
 
 
-.shot-main {
-    display: grid;
-    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
-    padding: 20px;
-}
+@media (max-width:768px) {
+    body {
+        /* width: 100%; */
+        background-image: url(/images/mobile.jpg);
+        background-repeat: no-repeat;
+    }
 
-@media (max-width:764px) {
-    .shot-main {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+    .content {
+        display: none;
+    }
+
+    .block {
+        width: 100%;
     }
 }
 
-.online-game a:link {
-    text-decoration: none;
-    color: white;
-}
+@media (min-width:768px) {
+    body {
+        background-image: url(/images/cricket\ \(1\).jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
 
-.betx-banner a:link {
-    text-decoration: none;
-    color: white;
+    .mobile-view {
+        display: none;
+    }
+
 }
